@@ -21,8 +21,10 @@ public class UserCheck {
 		{
 		case MANAGER_ID:
 			ret = manager;
+			break;
 		case EMPLOYEE_ID:
 			ret = employee;
+			break;
 		}
 		return ret;
 	}
